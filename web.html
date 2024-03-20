@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="web.css">
+</head>
+<body>
+  <div class="dashboard">
+    <h1>Welcome to Your Dashboard</h1>
+    
+    <div class="tiles-row">
+      <div class="tiles-container">
+        <div class="tile red">
+          <h2>Artificial Intelligence</h2>
+          <p>Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems.</p>
+        </div>
+        <div class="tile blue">
+          <h2>Virtual Reality</h2>
+          <p>Virtual reality (VR) is a simulated experience that employs pose tracking and 
+            3D near-eye displays to give the user an immersive feel of a virtual world.</p>
+        </div>
+        <div class="tile green">
+          <h2>Augmented Reality</h2>
+          <p>Augmented reality is an interactive experience that enhances the real world with computer-generated perceptual information.</p>
+        </div>
+        <div class="tile yellow">
+          <h2>Internet of Things</h2>
+          <p>The Internet of Things (IoT) describes the network of physical objects—“things”—that are embedded with sensors, 
+            software, and other technologies for the purpose of connecting and exchanging 
+            data with other devices and systems over the internet.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tiles-row">
+      <div class="tiles-container">
+        <div class="tile orange">
+          <h2>Smart Devices</h2>
+          <p>A smart device is an electronic device, generally connected to other devices or networks via different 
+            wireless protocols that can operate to some extent interactively and autonomously.</p>
+        </div>
+        <div class="tile purple">
+          <h2>Embedded Systems</h2>
+          <p>An embedded system is a combination of computer hardware and software designed for a specific function.</p>
+        </div>
+        <div class="tile cyan">
+          <h2>Cyber Security</h2>
+          <p>Cyber security is the application of technologies, processes, and controls to protect systems, 
+            networks, programs, devices and data from cyber attacks.</p>
+        </div>
+        <div class="tile pink">
+          <h2>Encryption & Decryption</h2>
+          <p>Encryption is a process which transforms the original information into an unrecognizable form while Decryption is 
+            a process of converting encoded/encrypted data in a form that is readable and understood by a human or a computer. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="chat-bot" id="chat-bot">
+    <img src="R.jpg" alt="Chat Bot" id="chat-bot-img">
+    <div class="chat-box" id="chat-box">
+      <div class="chat-header">
+        Technical Support
+        <span class="close-btn" id="close-btn">&times;</span>
+      </div>
+      <div class="chat-messages" id="chat-messages"></div>
+      <div class="user-input">
+        <input type="text" id="message-input" placeholder="Type your message...">
+        <button id="send-button">Send</button>
+  </div>
+
+  <script src="web.js"></script>
+</body>
+</html>
